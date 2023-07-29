@@ -47,8 +47,13 @@ public class Pessoa_java {
 			return false;
 		Pessoa_java other = (Pessoa_java) obj;
 		return Objects.equals(dataNasc, other.dataNasc) && idade == other.idade && Objects.equals(nome, other.nome);
+	}
+	@Override
+	public String toString() {
+		return "Pessoa_java [nome=" + nome + ", idade=" + idade + ", dataNasc=" + dataNasc + "]";
 	} 
 	
-   
+ //===========ToString================================
+	
 	
 }
