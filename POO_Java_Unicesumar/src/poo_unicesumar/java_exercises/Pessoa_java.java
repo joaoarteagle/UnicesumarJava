@@ -8,8 +8,8 @@ public class Pessoa_java {
 	private String nome;
 	private int idade;
 	private String dataNasc;
-	  
-	
+
+
 	
 //=================Setters and Getters=============	
 	public String getNome() {
