@@ -21,7 +21,7 @@ public class Executavel {
     Professor prof = new Professor("Renato", 40, "123abc");
     
     System.out.println("============================PROFESSOR==============================");
-    System.out.println("Nome do Professor: " + prof.getNomePro() + ", Idade Professor:" + prof.getIdade() + ", Matricula: " + prof.getMatricula());
+    System.out.println("Nome do Professor: " + prof.getNome() + ", Idade Professor:" + prof.getIdade() + ", Matricula: " + prof.getMatricula());
     System.out.println("============================ALUNOS=================================");
     
     for (Aluno aluno : alunos) {
