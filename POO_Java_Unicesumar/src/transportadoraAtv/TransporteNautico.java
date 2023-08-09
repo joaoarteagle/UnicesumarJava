@@ -10,7 +10,7 @@ public class TransporteNautico extends Transportadora{
 	}
 
 	@Override
-	float calculadoraFrete() {
+	public float calculadoraFrete() {
 		frete = (float) ((altura+largura) * 0.10);
 		return frete;
 		
