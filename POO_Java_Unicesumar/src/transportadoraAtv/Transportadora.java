@@ -12,5 +12,5 @@ public abstract class Transportadora {
 		
 	} 
 	
-	abstract double calculadoraFrete();
+	abstract float calculadoraFrete();
 }
